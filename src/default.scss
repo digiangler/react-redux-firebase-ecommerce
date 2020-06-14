@@ -1,0 +1,52 @@
+html {
+  font-style: 10px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif JP', serif;
+  font-style: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+a:hover {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: add .4s ease-in-out;
+  transition: add .4s ease-in-out;
+}
+
+.main {
+  width: 100%;
+  height: calc(100% - 6.5rem);
+  max-width: 1450px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
